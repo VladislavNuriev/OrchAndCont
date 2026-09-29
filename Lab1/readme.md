@@ -14,7 +14,9 @@
 <img width="850" height="186" alt="part2 process outside" src="https://github.com/user-attachments/assets/f300b25c-89a6-4ccf-b10d-7d6959265dca" />
 
 Смотрю статус изнутри
+
 <img width="781" height="199" alt="part2 process inside" src="https://github.com/user-attachments/assets/d8afbcfa-0f12-476b-af77-17125ba5eef0" />
+
 У процесса PID1, по всем namespace-ам кастомные значения
 
 Сравнительная таблица идентификаторов namespace-ов для хоста и Api. Все отличаются, кроме cgroup. Изоляция удалась
