@@ -23,11 +23,11 @@
 <img width="436" height="125" alt="part2 compare" src="https://github.com/user-attachments/assets/7a91051f-2c17-455e-ad18-49ccc6ac9197" />
 
 В итоге по каждму namespace:
-PID namespace: java — PID 1 внутри, 4388 снаружи.
-UTS namespace: mycontainer внутри, lab1 снаружи.
-Network namespace: только lo внутри, порт 8080 недоступен снаружи.
-Mount namespace: свой /proc (через --mount-proc).
-IPC: межпроцессорное взаимодействие (очереди сообщений, семафоры, разделяемую память)
-User namespace: изолирует идентификаторы пользователей и групп (UID/GID)
+- PID namespace: java — PID 1 внутри, 4388 снаружи.
+- UTS namespace: mycontainer внутри, lab1 снаружи.
+- Network namespace: только lo внутри, порт 8080 недоступен снаружи.
+- Mount namespace: свой /proc (через --mount-proc).
+- IPC: межпроцессорное взаимодействие (очереди сообщений, семафоры, разделяемую память)
+- User namespace: изолирует идентификаторы пользователей и групп (UID/GID)
 
 ## Часть 3
